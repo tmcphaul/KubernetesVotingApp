@@ -11,7 +11,7 @@ spec:
   - name: "result-service"
     port: 5001
     targetPort: 80
-    nodePort: 31005
+    nodePort: 31003
   selector:
     app: result
 
